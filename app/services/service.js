@@ -16,6 +16,10 @@ export default class Service {
         _target.purchased = []
     }
 
+    addDollar() {
+        _target.money += 1
+    }
+
     get TargetMoney() {
         return _target.money
     }

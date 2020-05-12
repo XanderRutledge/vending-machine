@@ -22,6 +22,11 @@ export default class Controller {
 
     }
 
+    addDollar() {
+        _service.addDollar()
+        _draw()
+    }
+
     constructor() {
 
     }
