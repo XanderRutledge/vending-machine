@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row d-flex align-items-center">
+                <div class="col-5">
+                    <h1>you have: <span id="totalMoney">2</span>$</h1>
+                </div>
+                <div class="col-2">
+                    <button class="btn btn-primary" onclick="app.controller.reset()">Reset</button>
+                </div>
+                <div class="col-5">
+                    <h1>Purchased: <span id="Purchased"></span></h1>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 my-5 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="//placehold.it/200x200" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><button class="btn btn-primary"
+                                    onclick="app.controller.buy('doritos')">A1 doritos</button> 1.00$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6  my-5 d-flex justify-content-center ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="//placehold.it/200x200" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><button class="btn btn-primary"
+                                    onclick="app.controller.buy('cheetos')">A2 cheetos</button> 1.00$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6  my-5 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="//placehold.it/200x200" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><button class="btn btn-primary"
+                                    onclick="app.controller.buy('rootbeer')">B1 rootbeet</button> .50$</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6  my-5 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="//placehold.it/200x200" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><button class="btn btn-primary" onclick="app.controller.buy('coke')">B2
+                                    coke</button> .50$</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="./app/main.js" type="module"></script>
+</body>
+
+</html>
