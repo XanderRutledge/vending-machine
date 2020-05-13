@@ -13,13 +13,11 @@ export default class Controller {
     buy(snackName) {
         _service.buy(snackName)
         _draw()
-
     }
 
     reset() {
         _service.reset()
         _draw()
-
     }
 
     addDollar() {
@@ -28,7 +26,5 @@ export default class Controller {
     }
 
     constructor() {
-
     }
-
 }

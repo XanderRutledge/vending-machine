@@ -1,6 +1,6 @@
 import Target from "../models/target.js";
 
-let _target = new Target({ snacks: { cheetos: 1.00, doritos: 1.00, lays: 1.00, rootbeer: .50, coke: .50, sprite: .50 }, money: 2.00, maxMoney: 2.00, purchased: [] })
+let _target = new Target({ snacks: { cheetos: 1.00, doritos: 1.00, lays: 1.00, rootbeer: .50, coke: .50, sprite: .50, snickers: .75, milkyway: .75, hundredgrand: .75 }, money: 2.00, maxMoney: 2.00, purchased: [] })
 
 export default class Service {
     buy(snackName) {
